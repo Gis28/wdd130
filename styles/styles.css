@@ -17,10 +17,30 @@ img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: ;
     box-shadow: 0 0 30px gray;
 }
 
 p {
+    padding: 0px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/ 0.2);
     padding: 10px;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside image {
+    width: 200;
+    height: auto;
+}
+
+footer {
+    margin-top: 150px;
+    border-top: 1px solid#000;
+    text-align: center;
 }
