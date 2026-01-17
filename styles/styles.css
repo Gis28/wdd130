@@ -6,17 +6,17 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid steelblue;
     box-shadow: 0 0 30px gray;
 }
 
@@ -28,19 +28,19 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0/ 0.2);
-    padding: 10px;
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
 }
 
-aside image {
-    width: 200;
+aside img {
+    width: 200px;
     height: auto;
 }
 
 footer {
-    margin-top: 150px;
+    margin-top: 1rem;
     border-top: 1px solid#000;
     text-align: center;
 }
