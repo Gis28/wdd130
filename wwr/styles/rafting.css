@@ -64,7 +64,12 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+.hero article {
     position: absolute;
     padding: 11px;
     background-color: var(--accent1-color);
@@ -73,11 +78,6 @@ article {
     color: #fff;
     text-align: left;
 
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
 }
 
 h2 {
