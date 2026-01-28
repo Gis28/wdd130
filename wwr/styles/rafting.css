@@ -73,7 +73,7 @@ h1 {
 .hero article {
     position: absolute;
     padding: 11px;
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     opacity: 0.9;
     bottom: 1px;
     color: #fff;
