@@ -11,6 +11,8 @@
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --white: #ffffff;
+    --black: #000000;
 }
 
 body {
@@ -88,7 +90,6 @@ h1 {
     bottom: 1px;
     color: #fff;
     text-align: left;
-
 }
 
 h2 {
