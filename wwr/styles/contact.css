@@ -34,12 +34,10 @@ h1 {
 
 .information h1 {
     margin-bottom: 5px;
-    /* réduit l'espace sous le h1 */
 }
 
 .information p {
     margin-top: 0;
-    /* retire l'espace au-dessus du paragraphe */
 }
 
 nav,
