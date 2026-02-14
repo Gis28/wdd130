@@ -148,6 +148,7 @@ footer {
     justify-content: center;
 }
 
+
 /*nouveau css*/
 
 * {
@@ -179,7 +180,8 @@ footer {
 
 h1 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
+    /* #264653 */
     font-size: 1.5rem;
     margin-top: 16px;
 }
@@ -346,5 +348,3 @@ legend {
     gap: .5rem;
     padding: .4rem 0;
 }
-
-*/
