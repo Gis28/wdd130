@@ -180,7 +180,7 @@ footer {
 
 h1 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 1.5rem;
     margin-top: 16px;
 }
