@@ -1,4 +1,4 @@
-* {
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,6 +47,13 @@ header {
     background-color: var(--accent1-color);
 }
 
+.socialmedia,
+.socialmedia a {
+    text-decoration: none;
+    padding: 0%;
+
+}
+
 .hero {
     position: relative;
 }
@@ -57,7 +64,7 @@ header {
     height: auto;
 }
 
-/*h1 {
+h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -66,7 +73,7 @@ header {
     opacity: 0.7;
     background-color: var(--secondary-color);
     color: black;
-}*/
+}
 
 .hero article img {
     float: right;
@@ -83,12 +90,12 @@ header {
     text-align: left;
 }
 
-/*h2 {
+h2 {
     padding: 10px;
     text-align: center;
     background-color: var(--accent1-color);
     width: 100%;
-}*/
+}
 
 nav {
     display: flex;
@@ -142,6 +149,33 @@ footer {
 }
 
 /*nouveau css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
 
 h1 {
     font-family: var(--heading-font);
