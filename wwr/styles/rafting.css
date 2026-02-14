@@ -203,7 +203,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     gap: 1rem;
-    background-color: rgb(21, 145, 187);
+    background-color: black;
 }
 
 .socialmedia,
@@ -242,7 +242,7 @@ nav a {
 
 nav a:hover {
     color: white;
-    background-color: black;
+
 }
 
 footer {
