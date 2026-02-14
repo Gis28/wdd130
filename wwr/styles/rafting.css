@@ -180,7 +180,7 @@ footer {
 
 h1 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 1.5rem;
     margin-top: 16px;
 }
@@ -306,7 +306,6 @@ form {
 .contact-form input,
 .contact-form input,
 .contact-form textarea {
-
     padding: 10px 12px;
     border-radius: 10px;
     font-size: 1rem;
