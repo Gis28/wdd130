@@ -72,6 +72,10 @@ h2 {
     width: 100%;
 }
 
+figcaption {
+    text-align: center;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
