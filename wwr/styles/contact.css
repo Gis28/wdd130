@@ -25,16 +25,25 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-{
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    font-size: 1.5rem;
+    margin-top: 16px;
+}
 
-font-family: var(--heading-font);
-color: var(--accent2-color);
+.information h1 {
+    margin-bottom: 5px;
+    /* réduit l'espace sous le h1 */
+}
+
+.information p {
+    margin-top: 0;
+    /* retire l'espace au-dessus du paragraphe */
 }
 
 nav,
-p,
-section {
+p {
     margin: 16px;
     padding: 8px;
 }
@@ -109,13 +118,11 @@ form {
     margin: 0 auto;
     padding: 1rem;
     border-radius: 0.5rem;
-
 }
 
 .map iframe {
     max-width: 450px;
     aspect-ratio: 4 / 3;
-    border: 0;
     border-radius: 10px;
 }
 
@@ -184,5 +191,4 @@ legend {
     align-items: center;
     gap: .5rem;
     padding: .4rem 0;
-
 }
