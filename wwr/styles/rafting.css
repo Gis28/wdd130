@@ -241,7 +241,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--accent1-color);
+    color: black;
     background-color: white;
 }
 
