@@ -241,8 +241,8 @@ nav a {
 }
 
 nav a:hover {
-    /*color: white;
-    /*background-color: white;*/
+    color: var(--accent1-color);
+    background-color: white;
 }
 
 footer {
