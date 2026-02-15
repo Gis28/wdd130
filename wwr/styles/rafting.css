@@ -203,7 +203,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     gap: 1rem;
-    background-color: rgb(39, 131, 189);
+    background-color: var(--secondary-color);
 }
 
 .socialmedia,
