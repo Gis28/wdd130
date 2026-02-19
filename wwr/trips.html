@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trips | White Water Rafting</title>
+    <meta name="description"
+      content="Explore our rafting trips. View featured adventures and compare all trips in our detailed table." />
+    <meta name="author" content="Gabriel Regis BONZO GOMA" />
+    <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+
+<body class="page page--trips">
+    <header>
+        <img src="images/z-raftingbw.png" alt="rafting logo" width="120" />
+        <nav aria-label="Primary navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="trips-hero">
+            <img class="trips-hero__bg" src="images/rafting-background.jpg"
+              alt="Group rafting through white water rapids" loading="lazy" />
+            <div class="trips-hero__overlay"></div>
+
+            <div class="container trips-hero__content">
+                <h1 class="page-title">Choose Your Trip</h1>
+                <p><strong>From calm scenic floats to world-class rapids — find the adventure that
+                        fits your
+                        crew.</strong></p>
+                <a class="btn btn--light" href="contact.html">Contact Us to Book</a>
+            </div>
+        </section>
+        <section class="container trips-layout" aria-label="Trip options and details">
+            <div class="trips-cards">
+                <h2 class="section-title">Featured Trips</h2>
+
+                <div class="trips-cards__grid">
+                    <article class="trip-card">
+                        <img src="images/rafting20_600.jpg"
+                          alt="Raft moving through a scenic river corridor" loading="lazy" />
+                        <div class="trip-card__body">
+                            <h3>Family Scenic Float</h3>
+                            <p class="trip-card__meta">
+                                <span><strong>Difficulty:</strong> Easy</span>
+                                <span><strong>Duration:</strong> 2–3 hours</span>
+                                <span><strong>Best for:</strong> Families &amp; first-timers</span>
+                            </p>
+                            <p>
+                                A relaxed ride on calmer waters with plenty of time for photos,
+                                wildlife spotting, and learning paddling basics.
+                                Perfect if you want the river experience without intense rapids.
+                            </p>
+                            <ul class="trip-highlights">
+                                <li>Gentle current &amp; calm sections</li>
+                                <li>Intro safety briefing included</li>
+                                <li>Great for groups and kids (min age varies)</li>
+                            </ul>
+                            <a class="link-arrow" href="contact.html">Ask about this trip</a>
+                        </div>
+                    </article>
+
+                    <article class="trip-card">
+                        <img src="images/rafting42_600.jpg"
+                          alt="Raft team paddling in strong rapids" loading="lazy" />
+                        <div class="trip-card__body">
+                            <h3>Classic Rapids Day Trip</h3>
+                            <p class="trip-card__meta">
+                                <span><strong>Difficulty:</strong> Moderate</span>
+                                <span><strong>Duration:</strong> Full day</span>
+                                <span><strong>Best for:</strong> Adventure seekers</span>
+                            </p>
+                            <p>
+                                Our most popular experience — a full day featuring a balance of
+                                thrilling rapids, calmer recovery pools,
+                                and scenic stretches. Includes lunch and professional guiding.
+                            </p>
+                            <ul class="trip-highlights">
+                                <li>Signature rapids + swim stops</li>
+                                <li>Lunch &amp; equipment included</li>
+                                <li>Perfect for friends &amp; team building</li>
+                            </ul>
+                            <a class="link-arrow" href="contact.html">Reserve a spot</a>
+                        </div>
+                    </article>
+                    <article class="trip-card">
+                        <img src="images/rafting47_600.jpg" alt="White water rushing between rocks"
+                          loading="lazy" />
+                        <div class="trip-card__body">
+                            <h3>Extreme Rapids Expedition</h3>
+                            <p class="trip-card__meta">
+                                <span><strong>Difficulty:</strong> Advanced</span>
+                                <span><strong>Duration:</strong> 2 days</span>
+                                <span><strong>Best for:</strong> Experienced paddlers</span>
+                            </p>
+                            <p>
+                                For those who want the biggest splashes and the most technical
+                                lines. This trip includes overnight camping,
+                                advanced safety procedures, and high-energy rapids — only for
+                                confident swimmers.
+                            </p>
+
+                            <a class="link-arrow" href="contact.html">Check availability</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <aside class="trips-aside" aria-label="Booking info and what to bring">
+                <div class="aside-card">
+                    <h2>Book with Confidence</h2>
+                    <p>Tell us your group size, preferred dates, and experience level — we’ll
+                        recommend the best trip and prepare your gear.</p>
+                    <a class="btn btn--solid" href="contact.html">Contact Us</a>
+                </div>
+
+                <div class="aside-card">
+                    <h3>What’s Included</h3>
+                    <ul class="checklist">
+                        <li>Helmet, PFD (life jacket), paddle</li>
+                        <li>Guide &amp; safety briefing</li>
+                        <li>Dry bag options (selected trips)</li>
+                    </ul>
+                </div>
+
+                <div class="aside-card">
+                    <h3>What to Bring</h3>
+                    <ul class="checklist">
+                        <li>Quick-dry clothes &amp; water shoes</li>
+                        <li>Sunscreen &amp; waterproof camera</li>
+                        <li>Change of clothes for after</li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+
+        <section class="container trips-table-section" aria-label="All available trips table">
+            <h2 class="section-title">All Available Trips</h2>
+
+            <div class="table-wrap" role="region" aria-label="Trips table scroll area" tabindex="0">
+                <table class="trips-table">
+                    <caption>Compare trip options by difficulty, duration, season, and price.
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Trip</th>
+                            <th scope="col">Difficulty</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Season</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">Includes</th>
+                            <th scope="col">Prices (USD)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Family Scenic Float</th>
+                            <td>Easy</td>
+                            <td>2–3 hours</td>
+                            <td>Year-round</td>
+                            <td>8+</td>
+                            <td>Guide, gear</td>
+                            <td>$59</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Classic Rapids Day Trip</th>
+                            <td>Moderate</td>
+                            <td>Full day</td>
+                            <td>Mar–Nov</td>
+                            <td>12+</td>
+                            <td>Guide, gear, lunch</td>
+                            <td>$129</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Extreme Rapids Expedition</th>
+                            <td>Advanced</td>
+                            <td>2 days</td>
+                            <td>Jun–Sep</td>
+                            <td>16+</td>
+                            <td>Guide, gear, meals, camping</td>
+                            <td>$299</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sunset Paddle (Add-on)</th>
+                            <td>Easy</td>
+                            <td>90 minutes</td>
+                            <td>Seasonal</td>
+                            <td>10+</td>
+                            <td>Guide, gear</td>
+                            <td>$39</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="table-note">
+                Prices shown are examples — final pricing depends on season, group size, and
+                availability.
+                <a class="link-arrow" href="contact.html">Contact us for a quote</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 | White Water Rafting | Gabriel Regis BONZO GOMA</p>
+        <nav class="socialmedia" aria-label="Social media">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon" width="50" />
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon" width="50" />
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon" width="50" />
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
